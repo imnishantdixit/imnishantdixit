@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Terminal intro">
+<rect width="1200" height="340" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="2"/><path d="M2,48 H1198" stroke="#30363d"/>
+<circle cx="34" cy="25" r="7" fill="#ff5f56"/>
+<circle cx="58" cy="25" r="7" fill="#ffbd2e"/>
+<circle cx="82" cy="25" r="7" fill="#27c93f"/>
+<text x="600.0" y="30" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="13" fill="#8b949e">nishant@founder-mode: ~</text>
+<text x="40" y="92" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="18" fill="#2dd4bf" opacity="0">$<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.0281;0.0312;0.96;1" dur="16s" repeatCount="indefinite"/></text>
+<clipPath id="c0"><rect x="60" y="70" height="30" width="0"><animate attributeName="width" values="0;0;72;72;0" keyTimes="0;0.0312;0.0938;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+<text x="62" y="92" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="18" fill="#e6edf3" textLength="66" lengthAdjust="spacing" clip-path="url(#c0)">whoami</text>
+
+<clipPath id="c1"><rect x="38" y="98" height="30" width="0"><animate attributeName="width" values="0;0;556;556;0" keyTimes="0;0.1125;0.2250;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+<text x="40" y="120" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="18" fill="#9fb3c8" textLength="550" lengthAdjust="spacing" clip-path="url(#c1)">nishant-dixit   # ai/ml · bioinformatics · founder</text>
+<text x="40" y="148" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="18" fill="#2dd4bf" opacity="0">$<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2469;0.2500;0.96;1" dur="16s" repeatCount="indefinite"/></text>
+<clipPath id="c2"><rect x="60" y="126" height="30" width="0"><animate attributeName="width" values="0;0;138;138;0" keyTimes="0;0.2500;0.3125;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+<text x="62" y="148" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="18" fill="#e6edf3" textLength="132" lengthAdjust="spacing" clip-path="url(#c2)">ls ventures/</text>
+
+<clipPath id="c3"><rect x="38" y="154" height="30" width="0"><animate attributeName="width" values="0;0;523;523;0" keyTimes="0;0.3187;0.4312;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+<text x="40" y="176" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="18" fill="#9fb3c8" textLength="517" lengthAdjust="spacing" clip-path="url(#c3)">mana-intelligence/   vibely/   postnp/   kalqy/</text>
+<text x="40" y="204" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="18" fill="#2dd4bf" opacity="0">$<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4469;0.4500;0.96;1" dur="16s" repeatCount="indefinite"/></text>
+<clipPath id="c4"><rect x="60" y="182" height="30" width="0"><animate attributeName="width" values="0;0;127;127;0" keyTimes="0;0.4500;0.5125;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+<text x="62" y="204" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="18" fill="#e6edf3" textLength="121" lengthAdjust="spacing" clip-path="url(#c4)">cat now.txt</text>
+
+<clipPath id="c5"><rect x="38" y="210" height="30" width="0"><animate attributeName="width" values="0;0;281;281;0" keyTimes="0;0.5250;0.6000;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+<text x="40" y="232" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="18" fill="#9fb3c8" textLength="275" lengthAdjust="spacing" clip-path="url(#c5)">agents that ship software</text>
+
+<clipPath id="c6"><rect x="38" y="238" height="30" width="0"><animate attributeName="width" values="0;0;358;358;0" keyTimes="0;0.6125;0.7000;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+<text x="40" y="260" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="18" fill="#9fb3c8" textLength="352" lengthAdjust="spacing" clip-path="url(#c6)">open-source tooling for genomics</text>
+
+<clipPath id="c7"><rect x="38" y="266" height="30" width="0"><animate attributeName="width" values="0;0;303;303;0" keyTimes="0;0.7125;0.7875;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+<text x="40" y="288" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="18" fill="#9fb3c8" textLength="297" lengthAdjust="spacing" clip-path="url(#c7)">coffee -&gt; code -&gt; companies</text>
+<text x="40" y="316" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="18" fill="#2dd4bf" opacity="0">$<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.8094;0.8125;0.96;1" dur="16s" repeatCount="indefinite"/></text>
+<rect x="62" y="300" width="10" height="20" fill="#2dd4bf" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;1;0;1;0;0" keyTimes="0;0.8125;0.8187;0.8500;0.8750;0.9000;0.9187;0.9437;0.9563;0.96;1" dur="16s" repeatCount="indefinite"/></rect>
+</svg>
