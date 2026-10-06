@@ -12,8 +12,6 @@
 <text x="40" y="120" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="18" fill="#9fb3c8" textLength="550" lengthAdjust="spacing" clip-path="url(#c1)">nishant-dixit   # ai/ml · bioinformatics · founder</text>
 <text x="40" y="148" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="18" fill="#2dd4bf" opacity="0">$<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2469;0.2500;0.96;1" dur="16s" repeatCount="indefinite"/></text>
 <clipPath id="c2"><rect x="60" y="126" height="30" width="0"><animate attributeName="width" values="0;0;138;138;0" keyTimes="0;0.2500;0.3125;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
-<text x="62" y="148" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="18" fill="#e6edf3" textLength="132" lengthAdjust="spacing" clip-path="url(#c2)">ls ventures/</text>
-
 
 
 <clipPath id="c5"><rect x="38" y="210" height="30" width="0"><animate attributeName="width" values="0;0;281;281;0" keyTimes="0;0.5250;0.6000;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
