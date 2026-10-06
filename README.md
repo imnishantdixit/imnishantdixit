@@ -22,10 +22,9 @@
 
 | 🤖 AI / ML | 🧫 Bioinformatics | 🚀 Founder |
 |:--|:--|:--|
-| Agentic AI, RAG, LLM evaluation, fine-tuning, computer vision | Merged PRs into **Trapiche** (Finn Lab) and **MalariaGEN Data Python** | **CTO** at Mana Intelligence, building **Vibely** - an agent that builds and ships software |
-| Python, PyTorch, LangChain, FastAPI | Genomic data tooling, sequence analysis | **Co-founder** of **postnp** - an autonomous 24/7 AI marketing agent |
-| Prompt engineering, evals, retrieval | Open-source, reproducible science | Product lead on **KALQY** - motion-controlled learning games for ages 3-6 |
-
+| Agentic AI, RAG, LLM evaluation, fine-tuning, computer vision | Merged PRs into **Trapiche** (Finn Lab) and **MalariaGEN Data Python** |
+| Python, PyTorch, LangChain, FastAPI | Genomic data tooling, sequence analysis | 
+| Prompt engineering, evals, retrieval | Open-source, reproducible science | 
 <sub>The loop: biology gives me messy, high-stakes data → ML gives me tools to make sense of it → startups force me to ship it.</sub>
 
 ## 📄 Research & open source
