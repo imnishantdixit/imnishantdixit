@@ -18,9 +18,9 @@
   <img src="assets/pipeline.svg" alt="From raw sequences to shipped products" width="100%"/>
 </p>
 
-## 🧬 Three hats, one loop
+##  Three hats, one loop
 
-| 🤖 AI / ML | 🧫 Bioinformatics | 🚀 Founder |
+|  AI / ML |  Bioinformatics |  Founder |
 |:--|:--|:--|
 | Agentic AI, RAG, LLM evaluation, fine-tuning, computer vision | Merged PRs into **Trapiche** (Finn Lab) and **MalariaGEN Data Python** | — |
 | Python, PyTorch, LangChain, FastAPI | Genomic data tooling, sequence analysis | — |
@@ -29,10 +29,10 @@
 
 ## 📄 Research & open source
 
-- 📝 **NPvert: Structure-First RAG for LaTeX Document Synthesis** - co-authored, published in *LPCPS ELIXIR*
-- 🧬 Contributor - [Trapiche](https://github.com/Finn-Lab/trapiche) · [MalariaGEN Data Python](https://github.com/malariagen/malariagen-data-python)
+-  **NPvert: Structure-First RAG for LaTeX Document Synthesis** - co-authored, published in *LPCPS ELIXIR*
+-  Contributor - [Trapiche](https://github.com/Finn-Lab/trapiche) · [MalariaGEN Data Python](https://github.com/malariagen/malariagen-data-python)
 
-## 🛠️ Stack
+##  Stack
 
 <p>
   <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,flask,django,docker,aws,postgres,redis,git,github,cpp,java,html&theme=dark"/>
@@ -49,7 +49,7 @@
   <img src="https://img.shields.io/badge/BLAST-2dd4bf?style=flat-square"/>
 </p>
 
-## 📊 Activity
+##  Activity
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=imnishantdixit&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
