@@ -48,7 +48,7 @@ s.append('</g>')
 # text
 s.append(f'<text x="60" y="92" font-family="{MONO}" font-size="14" letter-spacing="3" fill="{TEAL}">// AI/ML · BIOINFORMATICS · FOUNDER</text>')
 s.append(f'<text x="60" y="172" font-family="{SANS}" font-size="70" font-weight="800" fill="url(#nm)" textLength="520" lengthAdjust="spacingAndGlyphs">Nishant Dixit</text>')
-roles = ["Co-Founder & CTO — Vibely", "Co-Founder — postnp, 24/7 marketing agent", "Open source — Trapiche · MalariaGEN", "Published — NPvert, structure-first RAG"]
+roles = ["Open source — Trapiche · MalariaGEN", "Published — NPvert, structure-first RAG"]
 s.append(f'<text x="60" y="226" font-family="{MONO}" font-size="20" fill="{TEAL}">$</text>')
 P = 4*3
 for k, t in enumerate(roles):
@@ -72,7 +72,7 @@ s.append(f'<text x="40" y="44" font-family="{MONO}" font-size="13" letter-spacin
 xs = [120,360,600,840,1080]; cy = 118
 s.append(f'<path d="M{xs[0]},{cy} L{xs[-1]},{cy}" stroke="#1e293b" stroke-width="3"/>')
 s.append(f'<path d="M{xs[0]},{cy} L{xs[-1]},{cy}" stroke="url(#ln)" stroke-width="3" stroke-dasharray="8 10" fill="none"><animate attributeName="stroke-dashoffset" values="0;-36" dur="1.2s" repeatCount="indefinite"/></path>')
-nodes = [("ACGT",TEAL,"Raw biology","sequences · genomes"),("ALIGN",SKY,"Open-source tooling","Trapiche · MalariaGEN"),("EMBED",VIO,"Models & retrieval","RAG · fine-tuning · evals"),("AGENT",PINK,"Agents","LangChain · FastAPI · LLMs"),("SHIP",AMB,"Products","Vibely · postnp · KALQY")]
+nodes = [("ACGT",TEAL,"Raw biology","sequences · genomes"),("ALIGN",SKY,"Open-source tooling","Trapiche · MalariaGEN"),("EMBED",VIO,"Models & retrieval","RAG · fine-tuning · evals"),("AGENT",PINK,"Agents","LangChain · FastAPI · LLMs"),("SHIP",AMB,"Products","products · experiments")]
 for k,(x,(tag,col,t1,t2)) in enumerate(zip(xs,nodes)):
     b = (1.5*k) % 2
     s.append(f'<circle cx="{x}" cy="{cy}" r="34" fill="none" stroke="{col}" stroke-width="2" opacity="0"><animate attributeName="r" values="34;56" dur="2s" begin="{b}s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="2s" begin="{b}s" repeatCount="indefinite"/></circle>')
@@ -91,13 +91,11 @@ P = 16
 lines = [
  ("$","whoami",0.5,1.0,"cmd"),
  ("","nishant-dixit   # ai/ml · bioinformatics · founder",1.8,1.8,"out"),
- ("$","ls ventures/",4.0,1.0,"cmd"),
- ("","mana-intelligence/   vibely/   postnp/   kalqy/",5.1,1.8,"out"),
- ("$","cat now.txt",7.2,1.0,"cmd"),
- ("","agents that ship software",8.4,1.2,"out"),
- ("","open-source tooling for genomics",9.8,1.4,"out"),
- ("","coffee -> code -> companies",11.4,1.2,"out"),
- ("$","",13.0,0.2,"cursor"),
+ ("$","cat now.txt",4.0,1.0,"cmd"),
+ ("","agents that ship software",5.1,1.2,"out"),
+ ("","open-source tooling for genomics",6.5,1.4,"out"),
+ ("","coffee -> code -> companies",8.1,1.2,"out"),
+ ("$","",9.8,0.2,"cursor"),
 ]
 s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Terminal intro">']
 s.append(f'<rect width="{W}" height="{H}" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="2"/><path d="M2,48 H{W-2}" stroke="#30363d"/>')
@@ -113,8 +111,8 @@ for k,(pr,txt,t0,d,kind) in enumerate(lines):
     col = "#e6edf3" if kind=="cmd" else "#9fb3c8"
     s.append(f'<clipPath id="c{k}"><rect x="{x-2}" y="{y-22}" height="30" width="0"><animate attributeName="width" values="0;0;{wfull+6};{wfull+6};0" keyTimes="0;{t0/P:.4f};{(t0+d)/P:.4f};0.96;1" dur="{P}s" repeatCount="indefinite"/></rect></clipPath>')
     s.append(f'<text x="{x}" y="{y}" font-family="{MONO}" font-size="18" fill="{col}" textLength="{wfull}" lengthAdjust="spacing" clip-path="url(#c{k})">{esc(txt)}</text>')
-y = 92 + 8*28
-s.append(f'<rect x="62" y="{y-16}" width="10" height="20" fill="{TEAL}" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;1;0;1;0;0" keyTimes="0;{13/P:.4f};{13.1/P:.4f};{13.6/P:.4f};{14/P:.4f};{14.4/P:.4f};{14.7/P:.4f};{15.1/P:.4f};{15.3/P:.4f};0.96;1" dur="{P}s" repeatCount="indefinite"/></rect>')
+y = 92 + 6*28
+s.append(f'<rect x="62" y="{y-16}" width="10" height="20" fill="{TEAL}" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;1;0;1;0;0" keyTimes="0;{9.8/P:.4f};{9.9/P:.4f};{10.3/P:.4f};{10.7/P:.4f};{11.1/P:.4f};{11.4/P:.4f};{11.8/P:.4f};{12.0/P:.4f};0.96;1" dur="{P}s" repeatCount="indefinite"/></rect>')
 s.append('</svg>')
 open(OUT+"terminal.svg","w",encoding="utf-8").write("\n".join(s) + "\n")
 

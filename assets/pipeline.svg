@@ -30,7 +30,7 @@
 <circle cx="1080" cy="118" r="34" fill="#0b1220" stroke="#fbbf24" stroke-width="2.5" filter="url(#glow)"/>
 <text x="1080" y="123" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="14" font-weight="700" fill="#fbbf24">SHIP</text>
 <text x="1080" y="184" text-anchor="middle" font-family="'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="700" fill="#f1f5f9">Products</text>
-<text x="1080" y="208" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="13" fill="#94a3b8">Vibely · postnp · KALQY</text>
+<text x="1080" y="208" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="13" fill="#94a3b8">products · experiments</text>
 <circle r="6" fill="#ffffff" filter="url(#glow)"><animateMotion dur="6s" begin="0s" repeatCount="indefinite" path="M120,118 L1080,118"/></circle>
 <circle r="6" fill="#ffffff" filter="url(#glow)"><animateMotion dur="6s" begin="2s" repeatCount="indefinite" path="M120,118 L1080,118"/></circle>
 <circle r="6" fill="#ffffff" filter="url(#glow)"><animateMotion dur="6s" begin="4s" repeatCount="indefinite" path="M120,118 L1080,118"/></circle>
