@@ -27,7 +27,7 @@
 | Prompt engineering, evals, retrieval | Open-source, reproducible science | — |
 <sub>The loop: biology gives me messy, high-stakes data → ML gives me tools to make sense of it → startups force me to ship it.</sub>
 
-## 📄 Research & open source
+##  Research & open source
 
 -  **NPvert: Structure-First RAG for LaTeX Document Synthesis** - co-authored, published in *LPCPS ELIXIR*
 -  Contributor - [Trapiche](https://github.com/Finn-Lab/trapiche) · [MalariaGEN Data Python](https://github.com/malariagen/malariagen-data-python)
