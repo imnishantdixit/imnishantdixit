@@ -22,15 +22,15 @@
 
 | 🤖 AI / ML | 🧫 Bioinformatics | 🚀 Founder |
 |:--|:--|:--|
-| Agentic AI, RAG, LLM evaluation, fine-tuning, computer vision | Merged PRs into **Trapiche** (Finn Lab) and **MalariaGEN Data Python** |
-| Python, PyTorch, LangChain, FastAPI | Genomic data tooling, sequence analysis | 
-| Prompt engineering, evals, retrieval | Open-source, reproducible science | 
+| Agentic AI, RAG, LLM evaluation, fine-tuning, computer vision | Merged PRs into **Trapiche** (Finn Lab) and **MalariaGEN Data Python** | Co-Founder & CTO — **Vibely** |
+| Python, PyTorch, LangChain, FastAPI | Genomic data tooling, sequence analysis | Co-Founder — **postnp** (24/7 marketing agent) |
+| Prompt engineering, evals, retrieval | Open-source, reproducible science | Building **KALQY** & **mana-intelligence** |
 <sub>The loop: biology gives me messy, high-stakes data → ML gives me tools to make sense of it → startups force me to ship it.</sub>
 
 ## 📄 Research & open source
 
 - 📝 **NPvert: Structure-First RAG for LaTeX Document Synthesis** - co-authored, published in *LPCPS ELIXIR*
-- 🧬 Contributor - [Trapiche](https://github.com/finnlab) · [MalariaGEN Data Python](https://github.com/malariagen/malariagen-data-python)
+- 🧬 Contributor - [Trapiche](https://github.com/Finn-Lab/trapiche) · [MalariaGEN Data Python](https://github.com/malariagen/malariagen-data-python)
 
 ## 🛠️ Stack
 
@@ -52,14 +52,14 @@
 ## 📊 Activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=bleedblack1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bleedblack1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=imnishantdixit&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imnishantdixit&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bleedblack1/bleedblack1/output/github-snake-dark.svg"/>
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/bleedblack1/bleedblack1/output/github-snake.svg" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/imnishantdixit/imnishantdixit/output/github-snake-dark.svg"/>
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/imnishantdixit/imnishantdixit/output/github-snake.svg" width="100%"/>
   </picture>
 </p>
 
@@ -68,5 +68,5 @@
 </p>
 
 <p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=bleedblack1&icon=0&color=0"/>
+  <img src="https://visitcount.itsvg.in/api?id=imnishantdixit&icon=0&color=0"/>
 </p>

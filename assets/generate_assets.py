@@ -1,6 +1,7 @@
 import math, random, html
+from pathlib import Path
 random.seed(7)
-OUT = "/mnt/user-data/outputs/readme-kit/assets/"
+OUT = str(Path(__file__).resolve().parent) + "/"
 MONO = "'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace"
 SANS = "'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif"
 TEAL, VIO, AMB, PINK, SKY = "#2dd4bf", "#a78bfa", "#fbbf24", "#f472b6", "#38bdf8"
@@ -58,7 +59,7 @@ for (x, w, label, col, d) in ((60,112,"AI / ML",TEAL,0),(184,196,"BIOINFORMATICS
     s.append(f'<rect x="{x}" y="270" width="{w}" height="36" rx="18" fill="{col}" fill-opacity=".08" stroke="{col}" stroke-width="1.5"><animate attributeName="stroke-opacity" values="1;.3;1" dur="3s" begin="{d}s" repeatCount="indefinite"/></rect>')
     s.append(f'<text x="{x+w/2}" y="293" text-anchor="middle" font-family="{MONO}" font-size="13" font-weight="700" letter-spacing="2" fill="{col}">{label}</text>')
 s.append('</svg>')
-open(OUT+"hero.svg","w",encoding="utf-8").write("\n".join(s))
+open(OUT+"hero.svg","w",encoding="utf-8").write("\n".join(s) + "\n")
 
 # ---------------- PIPELINE ----------------
 W, H = 1200, 270
@@ -82,7 +83,7 @@ for k,(x,(tag,col,t1,t2)) in enumerate(zip(xs,nodes)):
 for j in range(3):
     s.append(f'<circle r="6" fill="#ffffff" filter="url(#glow)"><animateMotion dur="6s" begin="{2*j}s" repeatCount="indefinite" path="M{xs[0]},{cy} L{xs[-1]},{cy}"/></circle>')
 s.append('</svg>')
-open(OUT+"pipeline.svg","w",encoding="utf-8").write("\n".join(s))
+open(OUT+"pipeline.svg","w",encoding="utf-8").write("\n".join(s) + "\n")
 
 # ---------------- TERMINAL ----------------
 W, H = 1200, 340
@@ -115,7 +116,7 @@ for k,(pr,txt,t0,d,kind) in enumerate(lines):
 y = 92 + 8*28
 s.append(f'<rect x="62" y="{y-16}" width="10" height="20" fill="{TEAL}" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;1;0;1;0;0" keyTimes="0;{13/P:.4f};{13.1/P:.4f};{13.6/P:.4f};{14/P:.4f};{14.4/P:.4f};{14.7/P:.4f};{15.1/P:.4f};{15.3/P:.4f};0.96;1" dur="{P}s" repeatCount="indefinite"/></rect>')
 s.append('</svg>')
-open(OUT+"terminal.svg","w",encoding="utf-8").write("\n".join(s))
+open(OUT+"terminal.svg","w",encoding="utf-8").write("\n".join(s) + "\n")
 
 # ---------------- FOOTER ticker ----------------
 W, H = 1200, 70
@@ -131,4 +132,4 @@ for yy, op, dur, sgn in ((26,.9,40,1),(52,.35,60,-1)):
 s.append(f'<rect width="{W}" height="{H}" fill="#060912" opacity=".0"/></g>')
 s.append(f'<text x="{W/2}" y="45" text-anchor="middle" font-family="{MONO}" font-size="14" font-weight="700" letter-spacing="4" fill="#ffffff" stroke="#060912" stroke-width="6" paint-order="stroke">BUILD · BREAK · SEQUENCE · SHIP</text>')
 s.append('</svg>')
-open(OUT+"footer.svg","w",encoding="utf-8").write("\n".join(s))
+open(OUT+"footer.svg","w",encoding="utf-8").write("\n".join(s) + "\n")
